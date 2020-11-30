@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) {
+    h1 {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 480px) {
+    h1 {
+        text-align: center;
+    }
+}
