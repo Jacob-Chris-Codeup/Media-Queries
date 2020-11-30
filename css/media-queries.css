@@ -1,8 +1,53 @@
+body {
+    padding: 2em;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.nav-links {
+    display: flex;
+}
+
+li {
+    padding: 1em;
+    list-style: none;
+}
+
+section {
+    float: left;
+}
+
+.main {
+    float: left;
+    width: 60%;
+}
+
+.sub-section {
+    float: right;
+    width: 40%;
+}
+
+.header-img {
+    clear: both;
+    width: 100%;
+}
+
+.header-img img {
+    width: 100%;
+}
+
 @media screen and (min-width: 320px) {
     h1 {
         text-align: center;
     }
 }
+
 @media screen and (min-width: 480px) {
     h1 {
         text-align: center;
