@@ -1,3 +1,18 @@
+footer{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    clear:both;
+    line-height: 3em;
+}
+
+#social-media-links{
+    text-align:right;
+}
+
+#social-media-links i{
+    padding: 0 .25em;
+}
+
 /* This is the mobile layout*/
 @media screen and (max-width: 560px){
 
